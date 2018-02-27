@@ -7,7 +7,7 @@ int main()
 	{
 		BigInt x = "15";
 		BigInt y = "10000";
-		std::string s = "0";
+		std::string s = "sum";
 		BigInt oldX = x;
 		x += y;
 		std::cout << "The " << s << " of " << oldX << " and " << y << " is " << x << std::endl;
